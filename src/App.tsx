@@ -40,7 +40,7 @@ const App: React.FC = () => {
             <Route path="/dashboard" element={<DashboardPage />} />
             
             {/* Fallback route */}
-            <Route path="*" element={<Navigate to="/" replace />} />
+            <Route path="*" element={<Navigate to="/\" replace />} />
           </Routes>
         </main>
         <Footer />
